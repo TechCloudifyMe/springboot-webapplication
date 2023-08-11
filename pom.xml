@@ -11,22 +11,17 @@
 	<url>http://maven.apache.org</url>
 	
 	<distributionManagement>
-	    <repository>
-		    <id>maven-releases</id>
-		    <name>maven-releases</name>
-		    <url>http://44.210.87.132:8081/repository/maven-releases/</url>
-	    </repository>
-	    <repository>
-		    <id>filpkart-snapshot</id>
-		    <name>filpkart-snapshot</name>
-		    <url>http://44.210.87.132:8081/repository/filpkart-snapshot/</url>
-	    </repository>
-	    <snapshotRepository>
-		    <id>maven-snapshots</id>
-		    <name>maven-snapshots</name>
-		    <url>http://44.210.87.132:8081/repository/maven-snapshots/</url>
-	    </snapshotRepository>
-        </distributionManagement>
+            <repository>
+                    <id>filpkart-mixed</id>
+                    <name>filpkart-mixed/</name>
+                    <url>http://44.210.87.132:8081/repository/filpkart-mixed/</url>
+            </repository>
+            <snapshotRepository>
+                    <id>filpkart-snapshot</id>
+                    <name>filpkart-snapshot</name>
+                    <url>http://44.210.87.132:8081/repository/filpkart-snapshot/</url>
+            </snapshotRepository>
+       </distributionManagement>
 	
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
